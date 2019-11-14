@@ -1,0 +1,98 @@
+body {
+font-size: 16px;
+color:#fff ;
+background-color: #61122f;
+font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+    background-color: #f6b319;
+    border-radius:0 ;
+    border: 0;
+}
+
+#logo-img {
+    width: 124px;
+    height: 81px;
+    margin: 5px 10px 9px -164px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.res-certificate{
+    width: 52px;
+    height: 32px;
+    float: left;
+    border-radius: 60%;
+    pointer-events: visible;
+}
+
+.res-cer-name{
+    position: relative;
+    bottom: -5px;
+    font-weight: bold;
+    color: black;
+}
+
+.res-certificate:hover{
+    color: yellowgreen;
+    border-image:2px ;
+    border-radius: 50px;
+    opacity: 1px;
+}
+
+.navbar-brand h1{
+font-family: serif;
+text-transform: uppercase;
+font-weight: bold;
+text-shadow: 1px 1px 1px #222 ;
+margin-top: -11px;
+}
+
+.navbar-brand a:focus ,.navbar-brand a:hover{
+    text-decoration: none;
+}
+
+#nav-list{
+    margin-top: 10px;
+}
+
+#nav-list a{
+    columns: #951c49;
+    text-align: center;
+}
+
+#nav-list a:hover{
+    background: #E7E7E7;
+}
+
+#nav-list a span{
+    font-size: 1.8em;
+}
+
+#phone{
+    margin-top: 5px;
+}
+
+#phone {
+    text-align: right;
+}
+
+#phone div{
+    text-align: right;
+    color : #557c3e;
+    padding-right:15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border:1px solid #61122f
+}
+
+@media (max-width:767px){
+    .res-certificate,.res-cer-name{
+        display: none;
+    }
+}
+
+
